@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For You<3</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PANTALLA DE ENTRADA -->
+  <main id="welcome" class="screen">
+
+    <div class="welcome-card">
+
+      <div class="tiny-heart">♥</div>
+
+      <h1>Something for you...</h1>
+
+      <p>
+        There is a little surprise waiting for you.
+      </p>
+
+      <button id="enterBtn">
+        ENTER <span>♥</span>
+      </button>
+
+    </div>
+
+  </main>
+
+
+  <!-- PANTALLA PRINCIPAL -->
+  <main id="loveScreen" class="screen hidden">
+
+    <!-- Acá aparecerán los "I love you" -->
+    <div id="heartWords"></div>
+
+
+    <!-- FOTO Y MENSAJE DEL CENTRO -->
+    <div class="center-content">
+
+      <div class="photo-frame">
+
+        <!-- IMPORTANTE: la foto debe llamarse foto.jpg -->
+        <img src="foto.jpg" alt="Una foto especial">
+
+      </div>
+
+      <h2>I love you</h2>
+
+      <p class="message">
+        Te amo demasiado en esta y mil vidas. ♥
+      </p>
+
+    </div>
+
+
+    <!-- Corazones flotando -->
+    <div class="floating-hearts"></div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
